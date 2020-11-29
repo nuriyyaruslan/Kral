@@ -2050,7 +2050,7 @@ footer {
   border-color: #e63b34; }
 
 .nav-li-dnone {
-  display: none; }
+  display: none !important; }
 
 /* starts mobile style */
 @media screen and (max-width: 1200px) {
@@ -2418,7 +2418,7 @@ footer {
     padding-left: 15px;
     padding-right: 15px; }
   .nav-li-dnone {
-    display: block; } }
+    display: block !important; } }
 
 @media screen and (max-width: 767px) {
   .footer-main .col-sm-4 {
